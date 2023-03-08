@@ -30,7 +30,67 @@
 			margin-right: 40%;
 			color: black;
 		}
-		
+		.topnav {
+        overflow: hidden;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        }
+
+ 
+
+        .topnav a {
+            float: left;
+            position: relative;
+            left: 40%;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+ 
+
+         .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+        }
+
+ 
+
+        .topnav a.active {
+            background-color: red;
+            color: white;
+        }
+     /*This piece of code is taken online to make the scroll work */
+    /* width */
+    ::-webkit-scrollbar {
+            width: 10px;
+    }
+
+ 
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+          background: #f1f1f1;
+    }
+
+ 
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+          background: #888;
+    }
+
+ 
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+          background: #555;
+    }
+    /* Scroll end here */
 	</style>
 </head>
 
